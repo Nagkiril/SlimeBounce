@@ -6,7 +6,7 @@ Check a dev branch for the project itself and changelog past previous release.
 
 # Gameplay Overview
 
-Idea of a game is that a slime\ball is falling down a road, and Player must eliminate it by one of the methods:
+Slime\ball is falling down a road, and Player must eliminate it by one of the methods:
 - Dragging to the side of the screen, over a dropout zone that have individual cooldowns after use.
 - Exploiting properties of other slimes (every slime type have a unique twist in their behaviour).
 - Utilizing Ability buttons on the top left of the screen.
