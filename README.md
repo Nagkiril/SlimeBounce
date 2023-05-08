@@ -23,4 +23,4 @@ Progression is, of course, saved.
 
 Right now I'm working on implementing Abilities.
 
-I also improved a lot since the start of this project, so reviewing project is also in order, but I'll be doing it after the last major release.
+I also improved a lot since the start of this project (and keep getting better), so a full review is also in order.
