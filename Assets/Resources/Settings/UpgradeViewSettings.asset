@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6237a07bf0eba18489ce2275d3278890, type: 3}
+  m_Name: UpgradeViewSettings
+  m_EditorClassIdentifier: 
+  viewData:
+  - Category: 0
+    Name: More Lives
+    Description: Get <color=#18621CFF>{0}</color> <color=#0AAFB3FF>(+{1})</color>
+      bonus lives each level
+    Icon: {fileID: 21300000, guid: b297b7bddf645c340abd419693bb1fe1, type: 3}
+  - Category: 0
+    Name: Slower Slimes
+    Description: Slimes move <color=#38A41CFF>{0}%</color> <color=#0AAFB3FF>(+{1}%)</color>
+      slower
+    Icon: {fileID: 21300000, guid: 0cbc69d0cba2c3949b617dc2ed3d0329, type: 3}
+  - Category: 0
+    Name: Investment
+    Description: Winning gives <color=#38A41CFF>+{0}%</color> <color=#0AAFB3FF>(+{1}%)</color>
+      gold
+    Icon: {fileID: 21300000, guid: 5a222682aa2b5ac40afad323512d6a94, type: 3}
+  - Category: 0
+    Name: New Dropzone
+    Description: Get <color=#38A41CFF>{0}</color> <color=#0AAFB3FF>(+{1})</color>
+      more dropzones
+    Icon: {fileID: 21300000, guid: b9e7fec13c8666d46a0b960150c7b7e5, type: 3}
+  - Category: 0
+    Name: Dropzone Recovery
+    Description: Dropzones recover <color=#38A41CFF>{0}%</color> <color=#0AAFB3FF>(+{1}%)</color>
+      faster
+    Icon: {fileID: 21300000, guid: 78345e8ada7e5eb43bf197fcef9875f3, type: 3}

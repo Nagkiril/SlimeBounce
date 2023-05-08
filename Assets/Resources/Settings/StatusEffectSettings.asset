@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f83ed721e8285734e84e76f1ea7048f7, type: 3}
+  m_Name: StatusEffectSettings
+  m_EditorClassIdentifier: 
+  stunVfx: {fileID: 709734099240648397, guid: 540ec24e3e9aeb54dab35b61f20b9c9e, type: 3}
+  stunDuration: 5
+  protectedVFX: {fileID: 709734099240648397, guid: df27f2f35414e9345a84b01ef4303a61, type: 3}
+  protectedDuration: 0.5
+  hasteFX: {fileID: 709734099240648397, guid: a6192094732af434dbca74c621ca9cfb, type: 3}
+  hasteDuration: 3
