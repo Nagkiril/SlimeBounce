@@ -24,3 +24,5 @@ Progression is, of course, saved.
 Right now I'm working on implementing Abilities.
 
 I also improved a lot since the start of this project (and keep getting better), so a full review is also in order.
+
+There are bugs to fix, some I have tracked, but none known are critical.
