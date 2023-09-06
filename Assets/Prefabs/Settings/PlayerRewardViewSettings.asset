@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d1847b714a79e438028419fea991a1, type: 3}
+  m_Name: PlayerRewardViewSettings
+  m_EditorClassIdentifier: 
+  _slimeData:
+  - Header: {fileID: 6552428118844436878, guid: b01a9281692d23b439317534d49bd335, type: 3}
+    Name: Regular
+    Description: Sometimes the best is simple
+  - Header: {fileID: 6552428118844436878, guid: 3f9ad0d00fd9c4040abb3a0e4c30ef18, type: 3}
+    Name: <color=#12FFA4ff>Charger!</color>
+    Description: Drop to <color=#12FFA4ff>Stun</color> them!
+  - Header: {fileID: 6552428118844436878, guid: 580d3696caf80714cb6055604cd33393, type: 3}
+    Name: <color=#A3A1FFff>Protector!</color>
+    Description: Tap him to <color=#A3A1FFff>break his shield</color>
+  - Header: {fileID: 6552428118844436878, guid: 9eba472fd202d0641a43639ce0700aa6, type: 3}
+    Name: <color=#FF0016ff>Exploder!</color>
+    Description: Drop to <color=#FF0016ff>blow</color> everything up!
+  - Header: {fileID: 6552428118844436878, guid: 5525e0b174146c342a783d8ad14c329c, type: 3}
+    Name: <color=#FF58A8ff>Popper!</color>
+    Description: Tap to <color=#FF58A8ff>destroy all</color> around them!
+  - Header: {fileID: 6552428118844436878, guid: 179be9e2743424747b50de1b8c78ca08, type: 3}
+    Name: <color=#62DB58ff>Waver!</color>
+    Description: <color=#62DB58ff>Tiny</color>, mischievous rascal
+  - Header: {fileID: 6552428118844436878, guid: 1f5894afe9c746c47ba3fee50586de8e, type: 3}
+    Name: <color=#FF5100ff>Flamer!</color>
+    Description: Drop to <color=#FF5100ff>Interrupt</color> them!
+  - Header: {fileID: 6552428118844436878, guid: 9d0e8e72826c8914798451e2094b08fc, type: 3}
+    Name: <color=#FFFD12ff>Golden!</color>
+    Description: <color=#FFFD12ff>An icon of wealth!</color>
+  _currencyData:
+    Header: {fileID: 6552428118844436878, guid: 6d378e7cae100b54c9bfb0195cbc18fb, type: 3}
+    Name: Gold Up
+    Description: More <color=#FFF5C9ff>reward</color> from levels
+  _speedData:
+    Header: {fileID: 6552428118844436878, guid: a85ebf8f065461f4c816a0b2a827adaf, type: 3}
+    Name: Speed Up!
+    Description: Slimes are a bit <color=#60B2FFff>faster</color>
+  _spawnData:
+    Header: {fileID: 6552428118844436878, guid: 27f2c205dd185d148bb3488e80a99944, type: 3}
+    Name: Spawn Up!
+    Description: Slimes appear <color=#A3E9A2ff>quicker</color>

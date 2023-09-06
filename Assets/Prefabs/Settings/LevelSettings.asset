@@ -1,0 +1,537 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b45bd2981406b45a941523b65aae93, type: 3}
+  m_Name: LevelSettings
+  m_EditorClassIdentifier: 
+  _levelLivesDefault: 1
+  _rematchExpBonus: 4
+  _rematchExpMultiplier: 0.1
+  _levels:
+  - CurrencyReward: 50
+    WinExp: 10
+    Spawns:
+    - Slime: 1
+      SpawnCount: 2
+    - Slime: 0
+      SpawnCount: 1
+    - Slime: 4
+      SpawnCount: 2
+    - Slime: 2
+      SpawnCount: 2
+    - Slime: 7
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 5
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 3
+  - CurrencyReward: 55
+    WinExp: 10
+    Spawns:
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 7
+      SpawnCount: 1
+    - Slime: 3
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 2
+    - Slime: 4
+      SpawnCount: 1
+    - Slime: 5
+      SpawnCount: 2
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 1
+    - Slime: 4
+      SpawnCount: 1
+    - Slime: 3
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 1
+  - CurrencyReward: 55
+    WinExp: 11
+    Spawns:
+    - Slime: 7
+      SpawnCount: 1
+    - Slime: 5
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 1
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 3
+      SpawnCount: 2
+    - Slime: 4
+      SpawnCount: 1
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 5
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 1
+    - Slime: 5
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 1
+  - CurrencyReward: 60
+    WinExp: 11
+    Spawns:
+    - Slime: 3
+      SpawnCount: 1
+    - Slime: 4
+      SpawnCount: 1
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 2
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 7
+      SpawnCount: 1
+    - Slime: 4
+      SpawnCount: 1
+    - Slime: 5
+      SpawnCount: 1
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 1
+  - CurrencyReward: 60
+    WinExp: 12
+    Spawns:
+    - Slime: 3
+      SpawnCount: 1
+    - Slime: 4
+      SpawnCount: 1
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 1
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 7
+      SpawnCount: 1
+    - Slime: 4
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 1
+    - Slime: 5
+      SpawnCount: 1
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 1
+    - Slime: 7
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 1
+  - CurrencyReward: 65
+    WinExp: 12
+    Spawns:
+    - Slime: 3
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 2
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 5
+      SpawnCount: 1
+    - Slime: 7
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 1
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 1
+    - Slime: 7
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 3
+    - Slime: 4
+      SpawnCount: 1
+  - CurrencyReward: 65
+    WinExp: 13
+    Spawns:
+    - Slime: 1
+      SpawnCount: 1
+    - Slime: 3
+      SpawnCount: 1
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 2
+    - Slime: 5
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 2
+    - Slime: 7
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 1
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 3
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 7
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 2
+    - Slime: 4
+      SpawnCount: 1
+  - CurrencyReward: 70
+    WinExp: 13
+    Spawns:
+    - Slime: 3
+      SpawnCount: 1
+    - Slime: 4
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 1
+    - Slime: 3
+      SpawnCount: 2
+    - Slime: 0
+      SpawnCount: 1
+    - Slime: 4
+      SpawnCount: 1
+    - Slime: 2
+      SpawnCount: 2
+    - Slime: 3
+      SpawnCount: 2
+    - Slime: 0
+      SpawnCount: 3
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 4
+      SpawnCount: 1
+    - Slime: 3
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 7
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 1
+    - Slime: 3
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 1
+  - CurrencyReward: 70
+    WinExp: 14
+    Spawns:
+    - Slime: 0
+      SpawnCount: 2
+    - Slime: 1
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 1
+    - Slime: 7
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 2
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 1
+    - Slime: 4
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 3
+    - Slime: 3
+      SpawnCount: 1
+    - Slime: 2
+      SpawnCount: 1
+  - CurrencyReward: 75
+    WinExp: 14
+    Spawns:
+    - Slime: 0
+      SpawnCount: 2
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 3
+      SpawnCount: 1
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 4
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 1
+    - Slime: 3
+      SpawnCount: 1
+    - Slime: 4
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 3
+    - Slime: 5
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 7
+      SpawnCount: 1
+    - Slime: 5
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 2
+  - CurrencyReward: 75
+    WinExp: 15
+    Spawns:
+    - Slime: 0
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 2
+    - Slime: 4
+      SpawnCount: 1
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 2
+    - Slime: 7
+      SpawnCount: 1
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 2
+    - Slime: 5
+      SpawnCount: 2
+    - Slime: 7
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 1
+    - Slime: 3
+      SpawnCount: 1
+    - Slime: 5
+      SpawnCount: 2
+    - Slime: 6
+      SpawnCount: 1
+  - CurrencyReward: 80
+    WinExp: 15
+    Spawns:
+    - Slime: 0
+      SpawnCount: 1
+    - Slime: 4
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 2
+    - Slime: 3
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 1
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 5
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 7
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 2
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 1
+    - Slime: 4
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 3
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 2
+  - CurrencyReward: 80
+    WinExp: 16
+    Spawns:
+    - Slime: 0
+      SpawnCount: 3
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 5
+      SpawnCount: 3
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 4
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 2
+    - Slime: 4
+      SpawnCount: 1
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 2
+    - Slime: 1
+      SpawnCount: 1
+    - Slime: 4
+      SpawnCount: 1
+    - Slime: 3
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 2
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 4
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 3
+  - CurrencyReward: 85
+    WinExp: 16
+    Spawns:
+    - Slime: 0
+      SpawnCount: 1
+    - Slime: 4
+      SpawnCount: 1
+    - Slime: 7
+      SpawnCount: 2
+    - Slime: 1
+      SpawnCount: 1
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 4
+      SpawnCount: 1
+    - Slime: 5
+      SpawnCount: 2
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 5
+      SpawnCount: 2
+    - Slime: 3
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 4
+    - Slime: 7
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 1
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 1
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 2
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 4
+      SpawnCount: 1
+  - CurrencyReward: 85
+    WinExp: 17
+    Spawns:
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 2
+    - Slime: 4
+      SpawnCount: 1
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 0
+      SpawnCount: 4
+    - Slime: 3
+      SpawnCount: 1
+    - Slime: 5
+      SpawnCount: 1
+    - Slime: 7
+      SpawnCount: 1
+    - Slime: 3
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 1
+    - Slime: 5
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 1
+    - Slime: 5
+      SpawnCount: 1
+    - Slime: 1
+      SpawnCount: 1
+    - Slime: 2
+      SpawnCount: 1
+    - Slime: 6
+      SpawnCount: 1
+    - Slime: 5
+      SpawnCount: 2
+    - Slime: 4
+      SpawnCount: 1
+    - Slime: 5
+      SpawnCount: 1
+    - Slime: 7
+      SpawnCount: 1

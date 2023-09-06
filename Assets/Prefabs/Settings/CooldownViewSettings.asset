@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98948fc7f1aea4e42b2fb8bbb5d37bef, type: 3}
+  m_Name: CooldownViewSettings
+  m_EditorClassIdentifier: 
+  _dials:
+  - SegmentCount: 4
+    CooldownPrefab: {fileID: 7158794008219879657, guid: dedf78b3c085d4f40bc36f4d4c3f00ab, type: 3}
+  - SegmentCount: 5
+    CooldownPrefab: {fileID: 236551566069929755, guid: fc4c7b8593365074a8613f33d3ad69f1, type: 3}

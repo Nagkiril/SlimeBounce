@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5c7ebcec500fe84686eb4364c9e8b86, type: 3}
+  m_Name: PlayerLevelScriptableSettings
+  m_EditorClassIdentifier: 
+  _levelData:
+  - LevelUpExp: 10
+    CurrencyMultiplier: 1
+    SpeedMultiplier: 0.8
+    SpawnDelayReduction: 0
+  - LevelUpExp: 10
+    CurrencyMultiplier: 1.05
+    SpeedMultiplier: 0.9
+    SpawnDelayReduction: 0.1
+  - LevelUpExp: 10
+    CurrencyMultiplier: 1.1
+    SpeedMultiplier: 0.95
+    SpawnDelayReduction: 0.2
+  - LevelUpExp: 15
+    CurrencyMultiplier: 1.15
+    SpeedMultiplier: 0.95
+    SpawnDelayReduction: 0.3
+  - LevelUpExp: 15
+    CurrencyMultiplier: 1.2
+    SpeedMultiplier: 1
+    SpawnDelayReduction: 0.4
+  - LevelUpExp: 20
+    CurrencyMultiplier: 1.25
+    SpeedMultiplier: 1.05
+    SpawnDelayReduction: 0.5
+  - LevelUpExp: 20
+    CurrencyMultiplier: 1.3
+    SpeedMultiplier: 1.1
+    SpawnDelayReduction: 0.6
+  - LevelUpExp: 25
+    CurrencyMultiplier: 1.35
+    SpeedMultiplier: 1.1
+    SpawnDelayReduction: 0.7
+  - LevelUpExp: 25
+    CurrencyMultiplier: 1.4
+    SpeedMultiplier: 1.2
+    SpawnDelayReduction: 0.8
+  - LevelUpExp: 30
+    CurrencyMultiplier: 1.45
+    SpeedMultiplier: 1.2
+    SpawnDelayReduction: 0.9
+  - LevelUpExp: 30
+    CurrencyMultiplier: 1.5
+    SpeedMultiplier: 1.3
+    SpawnDelayReduction: 1
+  - LevelUpExp: 35
+    CurrencyMultiplier: 1.55
+    SpeedMultiplier: 1.3
+    SpawnDelayReduction: 1.1
+  - LevelUpExp: 40
+    CurrencyMultiplier: 1.6
+    SpeedMultiplier: 1.4
+    SpawnDelayReduction: 1.1
+  - LevelUpExp: 45
+    CurrencyMultiplier: 1.65
+    SpeedMultiplier: 1.4
+    SpawnDelayReduction: 1.2
+  - LevelUpExp: 50
+    CurrencyMultiplier: 1.7
+    SpeedMultiplier: 1.5
+    SpawnDelayReduction: 1.2
+  - LevelUpExp: 60
+    CurrencyMultiplier: 1.75
+    SpeedMultiplier: 1.5
+    SpawnDelayReduction: 1.3
+  - LevelUpExp: 80
+    CurrencyMultiplier: 1.8
+    SpeedMultiplier: 1.6
+    SpawnDelayReduction: 1.3
+  - LevelUpExp: 100
+    CurrencyMultiplier: 1.85
+    SpeedMultiplier: 1.6
+    SpawnDelayReduction: 1.4
+  - LevelUpExp: 150
+    CurrencyMultiplier: 1.9
+    SpeedMultiplier: 1.7
+    SpawnDelayReduction: 1.4
+  - LevelUpExp: -1
+    CurrencyMultiplier: 2
+    SpeedMultiplier: 1.8
+    SpawnDelayReduction: 1.5
+  _slimeUnlocks:
+  - RequiredLevel: 2
+    NewType: 1
+  - RequiredLevel: 4
+    NewType: 4
+  - RequiredLevel: 6
+    NewType: 2
+  - RequiredLevel: 7
+    NewType: 3
+  - RequiredLevel: 9
+    NewType: 5
+  - RequiredLevel: 11
+    NewType: 6
+  - RequiredLevel: 14
+    NewType: 7

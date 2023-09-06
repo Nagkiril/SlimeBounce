@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ae06730fa4a8fd47b48e792de0ca06a, type: 3}
+  m_Name: FaceSpriteSettings
+  m_EditorClassIdentifier: 
+  _eyes:
+  - Type: 0
+    Prefabs:
+    - {fileID: 499053264841755825, guid: 1a5f9a79dc71bbb41a49f65a17f1ec1b, type: 3}
+  - Type: 1
+    Prefabs:
+    - {fileID: 3681495782694888166, guid: 614c8d793f0682a49809d8f8d6f89d4f, type: 3}
+  - Type: 2
+    Prefabs:
+    - {fileID: 2386394020700433794, guid: 15d0e5c043181354f990010deaf2e1c0, type: 3}
+  - Type: 3
+    Prefabs:
+    - {fileID: 2386394020700433794, guid: 5b51e639ca658b747998703159a4c3f5, type: 3}
+  - Type: 4
+    Prefabs:
+    - {fileID: 499053264841755825, guid: 0f041800903107b4f81087752eecbcd1, type: 3}
+  _mouths:
+  - Type: 0
+    Prefab: {fileID: 4648052234622875288, guid: 9d5cd769b42eb8a46802976e92fd7081, type: 3}
+  - Type: 1
+    Prefab: {fileID: 497281722507915512, guid: b3638f452e5e1d64d9225068c8845950, type: 3}
+  - Type: 2
+    Prefab: {fileID: 1568744935470686517, guid: a28785e930c16ae44918a038445e86c4, type: 3}
+  - Type: 3
+    Prefab: {fileID: 1388044186718967981, guid: ea43ca182c3da3e4c9dfeeb464749918, type: 3}

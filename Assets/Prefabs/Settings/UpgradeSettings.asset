@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32cae604ddc340349acd31a381ee9cd4, type: 3}
+  m_Name: UpgradeSettings
+  m_EditorClassIdentifier: 
+  _upgrades:
+  - MaxLevel: 3
+    ValuesPerLevel:
+    - 1
+    BaseCost: 80
+    CostPerLevel: 115
+  - MaxLevel: 8
+    ValuesPerLevel:
+    - 4
+    BaseCost: 40
+    CostPerLevel: 50
+  - MaxLevel: 10
+    ValuesPerLevel:
+    - 10
+    BaseCost: 25
+    CostPerLevel: 15
+  - MaxLevel: 2
+    ValuesPerLevel:
+    - 1
+    BaseCost: 100
+    CostPerLevel: 550
+  - MaxLevel: 10
+    ValuesPerLevel:
+    - 5
+    BaseCost: 30
+    CostPerLevel: 50
+  - MaxLevel: 6
+    ValuesPerLevel:
+    - 2
+    - 1
+    BaseCost: 100
+    CostPerLevel: 70
+  - MaxLevel: 6
+    ValuesPerLevel:
+    - 1.5
+    - 20
+    BaseCost: 220
+    CostPerLevel: 44
+  - MaxLevel: 6
+    ValuesPerLevel:
+    - 0.5
+    - 1
+    BaseCost: 120
+    CostPerLevel: 33
+  - MaxLevel: 6
+    ValuesPerLevel:
+    - 3
+    - 15
+    BaseCost: 70
+    CostPerLevel: 40

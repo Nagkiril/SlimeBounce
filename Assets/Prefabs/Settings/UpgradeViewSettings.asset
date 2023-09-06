@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6237a07bf0eba18489ce2275d3278890, type: 3}
+  m_Name: UpgradeViewSettings
+  m_EditorClassIdentifier: 
+  _viewData:
+  - Category: 0
+    Name: More Lives
+    Description: Get <color=#18621CFF>{0}</color> <color=#0AAFB3FF>(+{1})</color>
+      bonus lives each level
+    Icon: {fileID: 21300000, guid: b297b7bddf645c340abd419693bb1fe1, type: 3}
+  - Category: 0
+    Name: Slower Slimes
+    Description: Slimes move <color=#38A41CFF>{0}%</color> <color=#0AAFB3FF>(+{1}%)</color>
+      slower
+    Icon: {fileID: 21300000, guid: 0cbc69d0cba2c3949b617dc2ed3d0329, type: 3}
+  - Category: 0
+    Name: Investment
+    Description: Winning gives <color=#38A41CFF>+{0}%</color> <color=#0AAFB3FF>(+{1}%)</color>
+      gold
+    Icon: {fileID: 21300000, guid: 5a222682aa2b5ac40afad323512d6a94, type: 3}
+  - Category: 0
+    Name: New Dropzone
+    Description: Get <color=#38A41CFF>{0}</color> <color=#0AAFB3FF>(+{1})</color>
+      more dropzones
+    Icon: {fileID: 21300000, guid: b9e7fec13c8666d46a0b960150c7b7e5, type: 3}
+  - Category: 0
+    Name: Dropzone Recovery
+    Description: Dropzones recover <color=#38A41CFF>{0}%</color> <color=#0AAFB3FF>(+{1}%)</color>
+      faster
+    Icon: {fileID: 21300000, guid: 78345e8ada7e5eb43bf197fcef9875f3, type: 3}
+  - Category: 1
+    Name: Road Shield
+    Description: Repels <color=#38A41CFF>{0}</color> <color=#0AAFB3FF>(+{1})</color>
+      slimes over <color=#38A41CFF>{2}</color> <color=#0AAFB3FF>(+{3})</color> seconds.
+      Max level makes shield explode.
+    Icon: {fileID: 21300000, guid: a4c6f34bb179e5140a098443f7364c23, type: 3}
+  - Category: 1
+    Name: Void Slime
+    Description: Deploys vortex for <color=#38A41CFF>{0}</color> <color=#0AAFB3FF>(+{1})</color>
+      seconds, with <color=#38A41CFF>{2}%</color> <color=#0AAFB3FF>(+{3}%)</color>
+      pull. Max level slows slimes nearby.
+    Icon: {fileID: 21300000, guid: 0c348df4ae0950c41a13746ed175a9d1, type: 3}
+  - Category: 1
+    Name: Wave Stun
+    Description: Stuns for <color=#38A41CFF>{0}</color> <color=#0AAFB3FF>(+{1})</color>
+      seconds and slows for <color=#38A41CFF>{2}</color> <color=#0AAFB3FF>(+{3})</color>
+      seconds after. Max level knocks back and destroys slimes.
+    Icon: {fileID: 21300000, guid: 6533d568bf6dc644a846af6ed2623453, type: 3}
+  - Category: 1
+    Name: Fever Feast
+    Description: For <color=#38A41CFF>{0}</color> <color=#0AAFB3FF>(+{1})</color>
+      seconds, dropout zones recover <color=#38A41CFF>{2}%</color> <color=#0AAFB3FF>(+{3}%)</color>
+      faster. Max level destroys slime when zone is fed.
+    Icon: {fileID: 21300000, guid: abcfb1781ee12404ab711291f4033625, type: 3}
