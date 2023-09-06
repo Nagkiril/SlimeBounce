@@ -2,7 +2,7 @@
 
 This repository will contain major complete versions of my personal Android game.
 
-I've made it because I wanted to showcase what I can do - in a way that also results in something I would call a fun game, made pretty much entirely by me (bar some often-used packages, of course). Despite its age, it still feels somewhat like a prototype, but I find that I achieved what I wanted here, and thus I move on. More on this in **State of the Game** below.
+I've made it because I wanted to showcase what I can do - in a way that also results in something I would call a fun game, made pretty much entirely by me. More on this in **State of the Game** below.
 
 Each individual push is made in a private repository elsewhere, thus updates here are expected to be scarce. Check a dev branch for the project itself and changelog past previous releases.
 
