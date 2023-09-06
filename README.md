@@ -1,28 +1,8 @@
-# SlimeBounce
+# SlimeBounce dev_1.0.0
 
-This repository will contain major complete versions of my personal Android game. Each individual push is made in a private repository elsewhere, thus updates here are expected to be scarce.
+Second and final release containing following changes:
 
-Check a dev branch for the project itself and changelog past previous release.
-
-# Gameplay Overview
-
-Slime\ball is falling down a road, and Player must eliminate it by one of the methods:
-- Dragging to the side of the screen, over a dropout zone that have individual cooldowns after use.
-- Exploiting properties of other slimes (every slime type have a unique twist in their behaviour).
-- Utilizing Ability buttons on the top left of the screen.
-
-A slime that reaches the end of the road deducts 1 life point. Reaching 0 life points will lose the level, and eliminating all slimes on the level is a victory.
-
-After completing each level, Player receives Experience and Gold (soft currency):
-- Experience contributes to Player Level, upon levelling up, Player unlocks additional Slime Types, starts receiving more Gold, but slimes may spawn and move faster.
-- Gold is used to purchase Passive upgrades and Abilities in the Shop.
-
-Progression is, of course, saved.
-
-# State of the Project
-
-Right now I'm working on implementing Abilities.
-
-I also improved a lot since the start of this project (and keep getting better), so a full review is also in order.
-
-There are bugs to fix, some I have tracked, but none known are critical.
+- Added Abilities, and Ability Upgrades
+- Refactored the entire codebase to better reflect code practices I'm utilizing now.
+- Major optimizations across the board, again, more in line with my current knowledge and experience.
+- Fixed every significant bug that I've had tracked.
